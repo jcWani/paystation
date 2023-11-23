@@ -959,13 +959,31 @@
           Embarking on the exhilarating <br />
           <span class="highlight">experience of gaming</span>
         </h2>
-        <form class="modal__form">
-          <label>First Name</label>
-          <input type="text" />
-          <label>Last Name</label>
-          <input type="text" />
-          <label>Email Address</label>
-          <input type="email" />
+        <form class="modal__form" name="sign-up" netlify>
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            type="text"
+            placeholder="James Christopher"
+            name="first-name"
+            required
+          />
+          <label for="last-name">Last Name</label>
+          <input
+            id="last-name"
+            type="text"
+            placeholder="Waniwan"
+            name="last-name"
+            required
+          />
+          <label for="email">Email Address</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="james.waniwan01@gmail.com"
+            name="email"
+            required
+          />
           <button class="btn btn--full">Next step &rarr;</button>
         </form>
       </div>
