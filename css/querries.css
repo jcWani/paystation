@@ -84,6 +84,10 @@
   }
 
   /* Hero */
+  .section__hero {
+    min-height: calc(100vh - 90px);
+  }
+
   .hero {
     gap: 4.8rem;
   }
@@ -136,6 +140,10 @@
   }
 
   /* Hero Section */
+  .section__hero {
+    min-height: calc(100vh - 80px);
+  }
+
   .hero {
     grid-template-columns: 1fr;
     padding: 4.8rem 8rem;

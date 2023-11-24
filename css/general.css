@@ -23,6 +23,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--color-black-500);
+  overflow-x: hidden;
 }
 
 *:focus {
