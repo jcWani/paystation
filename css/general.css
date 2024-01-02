@@ -1,8 +1,9 @@
 :root {
-  --color-primary: #12b886;
-  --color-primary-darker: #099268;
-  --color-primary-lighter: #e6fcf5;
-  --color-primary-lighter-shade: #c3fae8;
+  --color-primary: #0db381;
+  --color-primary-dark: #32d59f;
+  --color-primary-darker: #03986e;
+  --color-primary-lighter: #ecfdf6;
+  --color-primary-lighter-shade: #a6f4d2;
   --color-secondary: #121212;
 
   --color-black-200: #020202;
@@ -36,7 +37,7 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.5rem rgb(12, 167, 120, 0.5);
+  box-shadow: 0 0 0 0.5rem rgba(13, 179, 129, 0.55);
 }
 
 /* General Reusable Components */
