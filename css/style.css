@@ -2,8 +2,8 @@
 
 :root {
   --color-primary: #0db381;
-  --color-primary-dark: #32d59f;
   --color-primary-darker: #03986e;
+  --color-primary-darkest: #027a5c;
   --color-primary-lighter: #ecfdf6;
   --color-primary-lighter-shade: #a6f4d2;
   --gradient-primary: linear-gradient(to top left, #39b385, #69db7c);
@@ -571,7 +571,7 @@
 .pricing-plan--extra {
   padding: 4.6rem;
   justify-self: end;
-  border: 2px solid var(--color-primary-dark);
+  border: 2px solid var(--color-primary-darker);
 }
 
 .pricing-plan--premium {
@@ -678,7 +678,7 @@
 }
 
 .overview__tab {
-  color: var(--color-black-300);
+  color: #fff;
   margin-right: 2.5rem;
   transform: translateY(-25%);
 }
@@ -691,18 +691,18 @@
 
 .overview__tab--1,
 .overview__tab--2 {
-  background-color: var(--color-primary-lighter-shade);
+  background-color: var(--color-primary);
 }
 
 .overview__tab--3 {
-  background-color: var(--color-primary-lighter-shade);
+  background-color: var(--color-primary);
   margin: 0;
 }
 
 .overview__tab--1:hover,
 .overview__tab--2:hover,
 .overview__tab--3:hover {
-  filter: brightness(95%);
+  background-color: var(--color-primary-darker);
 }
 
 .overview__tab--active {
@@ -801,15 +801,22 @@
 .sign-up {
   justify-self: center;
   padding: 8rem 3.2rem;
-  background-color: var(--color-primary-lighter);
-  border: 0.3rem solid var(--color-primary-dark);
+
+  background: rgb(236, 253, 246);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 253, 246, 1) 35%,
+    rgba(166, 244, 210, 1) 100%
+  );
+
+  border: 2px solid var(--color-primary);
   border-radius: 3.2rem;
 }
 
 .sign-up .sign-up--title {
   font-family: var(--archivo);
   line-height: 1.5;
-  color: var(--color-black-400);
+  color: var(--color-black-200);
   font-size: 3rem;
   font-weight: 600;
 
@@ -818,7 +825,7 @@
 }
 
 .sign-up .sign-up--text {
-  color: var(--color-black-400);
+  color: var(--color-black-200);
   font-size: 1.8rem;
   line-height: 1.7;
 
