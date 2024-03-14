@@ -25,10 +25,7 @@ Paystation is a fictional company offering games and a subscription service. The
 
 <!-- TECHNOLOGY USED -->
 
-## 👨‍💻 Technology Used
-
-The Wild Oasis Hotel Management Application is built using the following technologies and libraries:
-
+## 💻 Technology Used
 - **HTML**: HTML provided the structural framework for the landing page, organizing content elements such as headers, paragraphs, images, and forms. Semantic markup enhanced accessibility and SEO.
 - **CSS**: CSS styled the visual presentation of HTML elements, including colors, fonts, spacing, and layout. Responsive design techniques and layout tools like Grid, Flexbox, and Absolute Positioning ensured a consistent and adaptable layout across various devices.
 - **Javascript**: Added interactive features and dynamic functionality to the landing page. This included smooth scrolling, tabbed navigation, sliders, modal windows, accordions, and subtle animations, enhancing user engagement and usability.
@@ -36,6 +33,6 @@ The Wild Oasis Hotel Management Application is built using the following technol
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo
+## 🎮 Live Demo
 
 [https://paystation.netlify.app/](https://paystation.netlify.app/)
