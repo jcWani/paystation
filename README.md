@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<h1 align="center">TravelSnap</h1>
+<h1 align="center">Paystation</h1>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -22,14 +22,13 @@ Paystation is a fictional company offering games and a subscription service. The
 - **Subtle Animations**: enhance the landing page's visual appeal and user engagement.
 - **Fully Responsive Design**: The landing page is designed to be fully responsive, ensuring optimal viewing and usability across various devices and screen sizes.
 
-
 <!-- TECHNOLOGY USED -->
 
 ## 💻 Technology Used
+
 - **HTML**: HTML provided the structural framework for the landing page, organizing content elements such as headers, paragraphs, images, and forms. Semantic markup enhanced accessibility and SEO.
 - **CSS**: CSS styled the visual presentation of HTML elements, including colors, fonts, spacing, and layout. Responsive design techniques and layout tools like Grid, Flexbox, and Absolute Positioning ensured a consistent and adaptable layout across various devices.
 - **Javascript**: Added interactive features and dynamic functionality to the landing page. This included smooth scrolling, tabbed navigation, sliders, modal windows, accordions, and subtle animations, enhancing user engagement and usability.
-
 
 <!-- LIVE DEMO -->
 
